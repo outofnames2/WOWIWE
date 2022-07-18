@@ -1,4 +1,4 @@
-import {fakeLink, getSavedWorlds} from '/dataWorld.js';
+import {fakeLink, getSavedWorlds} from './dataWorld.js';
 
 let worlds = getSavedWorlds();
 const link = document.querySelector(".url");
