@@ -5,7 +5,7 @@ export function getWorldData(data){
     const imgFiletype = data[1];
 
     const basePath = `./worlds/${name}`;
-    const imgPath = imgFiletype  ? `${basePath}/assets/world.${imgFiletype}` : "/assets/world-404.png";
+    const imgPath = imgFiletype  ? `${basePath}/assets/world.${imgFiletype}` : "./assets/world-404.png";
     return {
         name: name,
         imgPath: imgPath,
