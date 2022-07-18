@@ -1,0 +1,95 @@
+body{
+    background-image: url("assets/fondo4.gif");
+    background-color: #cccccc;
+}
+
+#titulo {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 50px;
+    color: red;
+    
+}
+
+.talign{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#preg{
+    font-size: 40px;
+
+}
+
+.multicolortext {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 30px;
+    background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+h2{
+    text-align: center;
+
+}
+
+.row {
+    display: flex;
+    text-align: center;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+.presentacion{
+    
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: solid;
+    border-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1500px;
+    
+}
+
+#tira{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#cora1{
+
+    margin: 10px;
+    margin-left: 100px;
+}
+
+#cora2{
+
+    margin: 10px;
+    margin-right: 100px;
+    
+}
+
+.pubs{
+    margin-top: 300px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gri{
+    
+    margin-top: 30px;
+    display: flex;
+    margin-left: auto;
+    margin-left: auto;
+
+}
