@@ -1,17 +1,8 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #0D141B;
+    color: #FBE7DA;
 }
-a:link, .url{
-    color: rgb(0, 0, 238);
-}
-a:visited {
-    color: #551a8b
-}
-.url {
-    cursor: pointer;
-    text-decoration: underline;
-}
+
 header h1{
     text-align: center;
     filter: url("#pixelate");
@@ -35,8 +26,9 @@ main p{
     display: grid;
     grid-template-columns: repeat(3, 15rem);
     background-image: url(assets/space.png);
-    border-style: solid;
-    border-color: white;
+    border-style: double;
+    border-color: #FBE7DA;
+    border-width: 0.5rem;
 }
 
 #world-grid img {
