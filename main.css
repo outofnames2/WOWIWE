@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: white;
+}
+a:link, .url{
+    color: rgb(0, 0, 238);
+}
+a:visited {
+    color: #551a8b
+}
+.url {
+    cursor: pointer;
+    text-decoration: underline;
+}
+header h1{
+    text-align: center;
+    filter: url("#pixelate");
+}
+
+main p{
+    text-align: center;
+}
+
+.secret {
+    opacity: 1;
+    color: red;
+    filter: url("#pixel_distort")
+}
+
+#world-grid-container {
+    display: flex;
+    justify-content: center;
+}
+#world-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 15rem);
+    background-image: url(assets/space.png);
+    border-style: solid;
+    border-color: white;
+}
+
+#world-grid img {
+    image-rendering: crisp-edges;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 200px;
+}
+
+
