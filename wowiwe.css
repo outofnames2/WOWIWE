@@ -1,0 +1,40 @@
+body {
+    margin: 0
+}
+a:link, .url{
+    color: rgb(0, 0, 238);
+}
+a:visited {
+
+}
+.url {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    background-color: #0D141B;
+    border-bottom-style: ridge;
+    border-color: #5A85AF;
+}
+nav > div {
+    background-color: #0D141B;
+    color: #FBE7DA;
+    padding-left: 1rem;
+}
+nav > div > h1 {
+    margin-left: 1rem;
+}
+nav > div > p {
+    padding: 0.5rem;
+    border-style: ridge;
+    border-color: #5A85AF;
+    margin-left: 1rem;
+
+}
+nav  h1 {
+    margin-top: 0; 
+    padding-top: 0.7rem;
+}
