@@ -1,0 +1,115 @@
+body{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.separador{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    padding-left: 0;
+    height: 200px;
+}
+
+.estrella{
+    margin-left: 0;
+    padding-left: 0;
+    
+}
+
+header img{
+    margin-left: 0;
+    padding-left: 0;
+    width: 100%;
+}
+
+h1{
+    color: gold;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2{
+    display: inline-block;
+    color: gold;
+    padding-left: 0.5%;
+}
+
+p{
+    color: gold;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.bullet{
+    padding-left: 2%;
+}
+
+h3{
+    color: gold;
+    padding-left: 2%;
+}
+
+li{
+    color: gold;
+}
+
+#imagenes{
+    display: block;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div img{
+    width: 50%;
+    height: 50%;
+    /* max-width: 50%;
+    max-height: 50%; */
+    margin-top: 1rem;
+}
+
+/* #maradona{
+    max-width: 30%;
+    max-height: 30%;
+}
+
+#pcamp{
+    max-width: 50%;
+    max-height: 50%;
+} */
+
+footer{
+    background-color: gold;
+    /* height: 3rem; */
+}
+
+#fin{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+footer p{
+    color: blue;
+    text-align: center;
+    font-size: 0,2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
