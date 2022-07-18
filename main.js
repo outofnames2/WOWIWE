@@ -1,4 +1,4 @@
-import {getSavedWorlds, storeWorlds, displayWorld, getDefaultWorlds} from '/dataWorld.js';
+import {getSavedWorlds, storeWorlds, displayWorld, getDefaultWorlds} from './dataWorld.js';
 
 
 //asegurarse de que haya algo en localStorage y en caso de haberlo
